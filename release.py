@@ -141,6 +141,9 @@ DirName4 = "/usr/share/fly-wm/theme"
 FileName1 = "default.themerc.mini"
 FileName2 = "default.themerc"
 FileName3 = "current.themerc"
+FileName4 = "default.themerc.fly-mini"
+FileName5 = "default.themerc.fly-mobile"
+FileName6 = "default.themerc.fly-tablet"
 
 reScreenSaverDelay = "^ScreenSaverDelay=[^0][0-9]*\w*"
 reLockerDpmsOffTimeout = "^LockerDpmsOffTimeout=[^0][0-9]*\w*"
@@ -161,6 +164,18 @@ FullFileName = DirName3 + '/' + FileName3
 print "> Operate {0}".format(FullFileName)
 reset_SSD_LDOT(FullFileName)
 
+FullFileName = DirName3 + '/' + FileName4
+print "> Operate {0}".format(FullFileName)
+reset_SSD_LDOT(FullFileName)
+
+FullFileName = DirName3 + '/' + FileName5
+print "> Operate {0}".format(FullFileName)
+reset_SSD_LDOT(FullFileName)
+
+FullFileName = DirName3 + '/' + FileName6
+print "> Operate {0}".format(FullFileName)
+reset_SSD_LDOT(FullFileName)
+
 FullFileName = DirName4 + '/' + FileName1
 print "> Operate {0}".format(FullFileName)
 reset_SSD_LDOT(FullFileName)
@@ -168,5 +183,22 @@ reset_SSD_LDOT(FullFileName)
 FullFileName = DirName4 + '/' + FileName2
 print "> Operate {0}".format(FullFileName)
 reset_SSD_LDOT(FullFileName)
+
+FullFileName = DirName4 + '/' + FileName3
+print "> Operate {0}".format(FullFileName)
+reset_SSD_LDOT(FullFileName)
+
+FullFileName = DirName4 + '/' + FileName4
+print "> Operate {0}".format(FullFileName)
+reset_SSD_LDOT(FullFileName)
+
+FullFileName = DirName4 + '/' + FileName5
+print "> Operate {0}".format(FullFileName)
+reset_SSD_LDOT(FullFileName)
+
+FullFileName = DirName4 + '/' + FileName6
+print "> Operate {0}".format(FullFileName)
+reset_SSD_LDOT(FullFileName)
+
 
 
